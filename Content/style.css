@@ -1,6 +1,9 @@
 a{
     color: rgb(0, 0, 0)
 }
+h1{
+    font-size: 80px;
+}
 #demo{
     color: rgb(149, 51, 51);
 }
@@ -17,7 +20,7 @@ a{
     background-color: rgba(0, 0, 0, 0.10);
 }
 .logo{
-    left: 16rem;
+    left: 11rem;
     position: absolute;
     top: 3rem;
     width: 100px;
@@ -28,7 +31,7 @@ a{
     height: 100px;
 }
 .div_nome_marca{
-    left: 22.5rem;
+    left: 17.5rem;
     width: 271px;
     position: absolute;
     pointer-events: none;
@@ -42,7 +45,7 @@ a{
     font-weight: bold;
 }
 .div_slogan_marca{
-    left: 22.5rem;
+    left: 17.5rem;
     width: 271px;
     position: absolute;
     pointer-events: none;
@@ -56,7 +59,7 @@ a{
 }
 .menu{
     width: 50%;
-    right: 3%;
+    right: 0;
     margin-top: 1%;
     position: absolute;
 }
@@ -65,4 +68,98 @@ a{
 }
 .tr_menu{
     border-bottom: 0px solid rgba(0,0,0,0.12) !important;
+}
+.container{
+}
+.div_img_banner{
+    margin-left: 0%;
+    width: 400px;
+    position: absolute;
+    top: 300px;
+    height: 400px;
+}
+.bg_img_banner{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 0px solid rgba(56, 56, 56, 1);
+    background-color: rgba(59, 186, 181, 1);
+}
+.chamada_banner{
+    color: rgba(56, 56, 56, 0.707);
+    line-height: 2rem;
+}
+.container_buttons_img{
+    width: 100%;
+    height: 200px;
+}
+.img_banner{
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+.txt_banner{
+    color: rgba(56, 56, 56, 0.802);
+    line-height: 0.8rem;
+    font-weight: bold;
+}
+.footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 12rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    background-color: rgba(59, 186, 181, 1);
+}
+.itens_footer{
+    width: 70%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cel_footer{
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+}
+.img_footer{
+    border: 1px solid black;
+    width: 45px;
+    height: 45px;
+    margin-top: 4rem;
+    float: left;
+
+
+    border-radius: 50%;
+    border: 0px solid rgba(56, 56, 56, 1);
+    background-color: rgba(247, 200, 14, 1)
+}
+.img_item_footer{
+    margin-top: -7px;
+    margin-left: -10px;
+}
+.txt_footer{
+    width: 75%;
+    height: 100%;
+    float: left;
+    margin-top: 3.5rem;
+    padding-left: 1rem;
+    line-height: 0.7rem;
+    font-size: 12px;
+    color: antiquewhite
+}
+.bold{
+    font-weight: 600;
+}
+.face_ico{
+    width: 25px;
+    height: 25px;
+    margin-top: -10px;
+    margin-left: -10px;
 }
