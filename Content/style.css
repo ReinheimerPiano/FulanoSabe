@@ -1,0 +1,68 @@
+a{
+    color: rgb(0, 0, 0)
+}
+#demo{
+    color: rgb(149, 51, 51);
+}
+
+.header{
+    width: 100%;
+    height: 10rem;
+}
+.bodymenu{
+    width: 100%;
+    height: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.10);
+}
+.logo{
+    left: 16rem;
+    position: absolute;
+    top: 3rem;
+    width: 100px;
+    height: 100px;
+}
+.logo_img{
+    width: 100px;
+    height: 100px;
+}
+.div_nome_marca{
+    left: 22.5rem;
+    width: 271px;
+    position: absolute;
+    pointer-events: none;
+    top: 4.15rem;
+}
+.nome_marca{
+    font-family:raleway,sans-serif;
+    font-size: 24px;
+    line-height: 1.2em;
+    color: #33958F;
+    font-weight: bold;
+}
+.div_slogan_marca{
+    left: 22.5rem;
+    width: 271px;
+    position: absolute;
+    pointer-events: none;
+    top: 5.85rem;
+}
+.slogan_marca{
+    font-family:raleway,sans-serif;
+    font-size: 16px;
+    line-height: 1.2em;
+    color: #666666;
+}
+.menu{
+    width: 50%;
+    right: 3%;
+    margin-top: 1%;
+    position: absolute;
+}
+.menu_selected{
+    color: #33958F !important;
+}
+.tr_menu{
+    border-bottom: 0px solid rgba(0,0,0,0.12) !important;
+}
