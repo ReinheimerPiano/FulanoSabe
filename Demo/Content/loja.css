@@ -1,0 +1,22 @@
+#foto_loja{
+    height: 100%;
+    width: 100%;
+}
+#alterar_foto{
+    position: relative;
+    top: -13rem;
+    left: 12rem;
+}
+.row_banner{
+    margin-top: 5rem;
+    height: 24rem;;
+}
+.col_banner{
+    padding: 1rem !important;
+    height: 100%;
+}
+.div_foto_loja{
+    box-shadow: 0px 0px 0.8em rgba(102, 102, 102, 0.571);
+    -webkit-box-shadow: 0px 0px 0.8em rgba(102, 102, 102, 0.571);
+    -moz-box-shadow: 0px 0px 0.8em rgba(102, 102, 102, 0.571);
+}

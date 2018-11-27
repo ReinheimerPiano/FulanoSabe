@@ -5,7 +5,7 @@
     <link rel="icon" type="imagem/png" href="../../Image/logo.png" />
     <link rel="stylesheet" type="text/css" href="../../Content/materialize/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="../Content/style.css">
-    <link rel="stylesheet" type="text/css" href="../Content/home.css">
+    <link rel="stylesheet" type="text/css" href="../Content/loja.css">
 
     <script src="../../Content/jquery-3.3.1.min.js"></script>
 </head>
@@ -30,10 +30,10 @@
                 <table class="table_menu">
                     <tbody class="tbody_menu">
                         <tr class="tr_menu">
-                            <td id="loja" class="td_menu"><a href="">Loja</a></td>
-                            <td id="lo_produtos" class="td_menu"><a href="">Produtos</a></td>
-                            <td id="meu_fulano" class="td_menu"><a href="">Meu Fulano</a></td>
-                            <td class="td_menu meu_fulano" id="user_menu"><a href="" class="btn">FulanoTal</a></td>
+                            <td class="td_menu selected"><a href="">Loja</a></td>
+                            <td class="td_menu"><a href="">Produtos</a></td>
+                            <td class="td_menu"><a href="">Meu Fulano</a></td>
+                            <td class="td_menu meu_fulano"><a href="" class="btn">FulanoTal</a></td>
                             <td class="td_menu"><a id="demo" href="../../index.html">Sair</a></td>
                         </tr>
                     </tbody>
@@ -44,33 +44,25 @@
     </div>
     <div class="container">
         <div class="row row_banner">
-            <div class="col s12 m4 l4 col_banner">
-                <div class="div_img_banner">
-                    <img class="img_banner" src="../Image/pencil.png">
+            <div class="col s12 m6 l6 col_banner">
+                <div class="div_nome_loja">
+                    <h4 id="nome_loja">
+                        FulanoSabe
+                    </h4>
                 </div>
-                <div class="txt_banner">
-                    <h5>1-Passo:Defina sua Loja! Nome, Produtos e Personalizações!<h5>
-                </div>
-            </div>
-
-            <div class="col s12 m4 l4 col_banner">
-                <div class="div_img_banner">
-                    <img class="img_banner" src="../Image/megafone.png">
-                </div>
-                <div class="txt_banner">
-                    <h5>2-Passo:Ajude seu Fulano a vender seu peixe!</h5>
+                <div class="div_descricao_loja">
+                    <p id="descricao_loja">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consectetur, augue sit amet ultricies maximus, erat sem ullamcorper lectus, non consequat lorem neque vel nunc. Morbi imperdiet commodo cursus. Cras cursus finibus tellus. Sed ipsum purus, pharetra ac justo eget, sodales tincidunt arcu. Fusce aliquet mi magna, ut efficitur nisl tempus eget. In non commodo elit. Vestibulum eget dignissim nunc.
+                    </p>
                 </div>
             </div>
+            <div class="col s12 m6 l6 col_banner">
+                <div class="div_foto_loja">
+                    <img id="foto_loja" src="../Image/img_loja_default.png">
+                </div>
 
-            <div class="col s12 m4 l4 col_banner">
-                <div class="div_img_banner">
-                    <img class="img_banner" src="../Image/mail.png">
-                </div>
-                <div class="txt_banner">
-                    <h5>3-Passo:Envie seus orçamentos e venda a la vonte!</h5>
-                </div>
+                <button class="btn" id="alterar_foto">Alterar</button>
             </div>
-
         </div>
     </div>
 

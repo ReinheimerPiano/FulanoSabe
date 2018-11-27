@@ -1,5 +1,5 @@
 a{
-    color: rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
 }
 h1{
     font-size: 80px;
@@ -10,19 +10,19 @@ h1{
 
 .header{
     width: 100%;
-    height: 10rem;
+    height: 7rem;
 }
 .bodymenu{
     width: 100%;
     height: 5rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 0;
     background-color: rgba(0, 0, 0, 0.10);
 }
 .logo{
     left: 11rem;
     position: absolute;
-    top: 3rem;
+    top: 0rem;
     width: 100px;
     height: 100px;
 }
@@ -35,7 +35,7 @@ h1{
     width: 271px;
     position: absolute;
     pointer-events: none;
-    top: 4.15rem;
+    top: 1.15rem;
 }
 .nome_marca{
     font-family:raleway,sans-serif;
@@ -49,7 +49,7 @@ h1{
     width: 271px;
     position: absolute;
     pointer-events: none;
-    top: 5.85rem;
+    top: 2.85rem;
 }
 .slogan_marca{
     font-family:raleway,sans-serif;
@@ -62,7 +62,7 @@ h1{
     right: 0;
     position: absolute;
 }
-.menu_selected{
+.selected{
     color: #33958F !important;
 }
 .tr_menu{
